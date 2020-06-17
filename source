@@ -1,0 +1,32 @@
+import random
+import time
+
+min = int(input("Enter the minimum number: "))
+max = int(input("Enter the maximum number of participants: "))
+
+for i in range(0,51):
+	print(random.randint(min,max))
+	print("--------")
+	time.sleep(0.1)
+
+for i in range(0,26):
+	print(random.randint(min,max))
+	print("--------")
+	time.sleep(0.3)
+	
+for i in range(0,10):
+	print(random.randint(min,max))
+	print("--------")
+	time.sleep(0.5)
+
+for i in range(0,5):
+	print(random.randint(min,max))
+	print("--------")
+	time.sleep(0.9)
+	
+print("69")
+print("--------")
+
+time.sleep(1.5)
+print("Winning Number >> 69")
+	
